@@ -40,3 +40,11 @@ function load_styles()
 }
 
 add_action('wp_enqueue_scripts', 'load_styles');
+
+
+wp_register_style( 'playfair_loadin', 'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900' );
+wp_enqueue_style('playfair_loadin');
+
+
+wp_register_style( 'sourcesans_loadin', 'https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900' );
+wp_enqueue_style('sourcesans_loadin');
