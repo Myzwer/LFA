@@ -9,51 +9,64 @@
  *
  */
 
-.bg-white-gradient {
-  background: rgb(250, 250, 250);
+.bg-apricot-gradient {
+  background: rgb(245, 227, 210);
   background: linear-gradient(
                   128deg,
-                  rgba(250, 250, 250, 1) 0%,
-                  rgba(235, 235, 235, 1) 100%
+                  rgba(245, 227, 210, 1) 0%,
+                  rgba(255, 223, 193, 1) 100%
   );
 }
 
-.bg-blue-gradient {
-  background: rgb(204, 219, 229);
+.bg-sage-gradient {
+  background: rgb(220, 228, 215);
   background: linear-gradient(
                   128deg,
-                  rgba(204, 219, 229, 1) 0%,
-                  rgba(222, 232, 238, 1) 100%
+                  rgba(220, 228, 215, 1) 0%,
+                  rgba(227, 240, 219, 1) 100%
   );
 }
 
-.bg-salty-gradient {
-  background: rgb(35, 64, 88);
+
+.bg-orange-gradient {
+  background: rgb(246, 139, 53);
   background: linear-gradient(
                   128deg,
-                  rgba(35, 64, 88, 1) 0%,
-                  rgba(75, 116, 150, 1) 100%
+                  rgba(246, 139, 53, 1) 0%,
+                  rgba(248, 130, 36, 1) 100%
   );
 }
+
+
+
+.bg-olive-gradient {
+  background: rgb(85, 98, 76);
+  background: linear-gradient(
+                  128deg,
+                  rgba(85, 98, 76, 1) 0%,
+                  rgba(98, 119, 84, 1) 100%
+  );
+}
+
 
 // The White gradient for alternating background control
 .alt-bg-wrap {
   .bg-alternating-gradient:nth-child(odd of :not(:empty)) {
-    background: rgb(250, 250, 250);
+    background: rgb(245, 227, 210);
     background: linear-gradient(
                     128deg,
-                    rgba(250, 250, 250, 1) 0%,
-                    rgba(235, 235, 235, 1) 100%
+                    rgba(245, 227, 210, 1) 0%,
+                    rgba(255, 223, 193, 1) 100%
     );
   }
 
   // The Blue gradient for alternating background control
   .bg-alternating-gradient:nth-child(even of :not(:empty)) {
-    background: rgb(204, 219, 229);
+    background: rgb(220, 228, 215);
     background: linear-gradient(
                     128deg,
-                    rgba(204, 219, 229, 1) 0%,
-                    rgba(222, 232, 238, 1) 100%
+                    rgba(220, 228, 215, 1) 0%,
+                    rgba(227, 240, 219, 1) 100%
     );
   }
 }
