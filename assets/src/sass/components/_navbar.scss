@@ -25,11 +25,11 @@
 $content-width: 2000px; // How wide or narrow do you want the bar to be?
 $breakpoint: 1101px; // When do you want to switch from mobile to desktop?
 $nav-height: 85px; // How tall do you want the navbar to be?
-$nav-background: #333333; // What background color do you want?
-$nav-font-color: #fafafa; // What primary font color?
-$link-hover-color: #7498be; // What color when you hover?
-$button-color: #fafafa; // What background color do you want the button to be?
-$button-hover-color: #eaeaea; // What hover color do you want the button to be?
+$nav-background: #55624C; // What background color do you want?
+$nav-font-color: #FAF8F5; // What primary font color?
+$link-hover-color: #3a4233; // What color when you hover?
+$button-color: #F68B35; // What background color do you want the button to be?
+$button-hover-color: #f48227; // What hover color do you want the button to be?
 
 // Sets the initial height and color of the navbar
 .navigation {
@@ -46,7 +46,9 @@ $button-hover-color: #eaeaea; // What hover color do you want the button to be?
 // Logo and branding
 .brand {
   float: left;
-  padding-left: 10px;
+  font-size: 1em;
+  padding-left: 20px;
+  padding-top: 30px;
   position: absolute;
   text-transform: uppercase;
   z-index: 15;
@@ -128,10 +130,10 @@ nav {
       }
 
       li:nth-child(even) {
-        background-color: #494949;
+        background-color: #7c8375;
       }
       li:nth-child(odd) {
-        background-color: #404040;
+        background-color: #55624C;
       }
     }
   }
@@ -204,6 +206,11 @@ nav {
     position: relative;
   }
 
+  .brand {
+    font-size: 1.4em;
+    padding-top: 25px;
+  }
+
   // Dropdown list binds to JS toggle event
   .nav-dropdown {
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
@@ -216,7 +223,7 @@ nav {
   nav {
     display: flex;
     // LEFT ALIGN? ENABLE THIS
-    //justify-content: flex-end;
+    justify-content: flex-end;
     padding: 0;
     position: relative;
     ul {
@@ -261,7 +268,7 @@ nav {
 
 .nav-list > li:last-of-type a {
   background-color: rgba(0, 0, 0, 0);
-  color: #234058;
+  color: #2B2B2B;
   font-weight: 600;
   padding: 8px 20px 15px;
 }
@@ -275,7 +282,7 @@ nav {
 
 .nav-list > li:last-of-type:hover a {
   background-color: rgba(0, 0, 0, 0);
-  color: #234058;
+  color: #2B2B2B;
 }
 
 .nav-list > li:last-of-type:hover {
@@ -289,12 +296,12 @@ nav {
 // When not in hamburger menu
 @media screen and (min-width: $breakpoint) {
   .nav-list > li:last-of-type {
-    border-radius: 20px;
+    border: 2px solid #2B2B2B;
+    border-radius: 5px;
     margin-left: 6px;
     margin-right: 10px;
-    margin-top: 82px;
+    margin-top: 21px;
     // LEFT ALIGN? DELETE THE POSITION
-    position: absolute;
     right: 0;
   }
 

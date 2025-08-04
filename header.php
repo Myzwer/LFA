@@ -38,11 +38,9 @@
 <!--Start Navbar-->
 <section class="navigation">
     <div class="nav-container">
-        <div class="brand">
+        <div class="brand playfair">
             <a href="/frontpage">
-                <!--Company Logo / Branding. Template supports both Text and Logo-->
-                <img src="https://images.squarespace-cdn.com/content/v1/575a6067b654f9b902f452f4/1552683653140-0UUVQSSUEWVC73AWAEQG/300Logo.png"
-                     alt="Company Logo">
+                Land & Farm Acquisitions
             </a>
         </div>
 
