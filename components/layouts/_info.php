@@ -1,4 +1,4 @@
-<div class="bg-white text-black p-10">
+<div class="bg-apricot text-black p-10">
     <div class="lg:max-w-6xl lg:mx-auto">
         <div class="grid grid-cols-12 gap-4 md:gap-10 ">
             <div class="col-span-12 md:col-span-6">
