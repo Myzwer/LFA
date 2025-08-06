@@ -56,12 +56,12 @@ $btn-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
   border-radius: $border-radius;
   box-shadow: $btn-shadow;
   display: inline-flex;
-  font-weight: 800;
   font-family: "Source Sans 3", sans-serif;
-  text-transform: capitalize;
+  font-weight: 800;
   justify-content: center;
   padding: $btn-padding;
   text-decoration: none;
+  text-transform: capitalize;
   transition: background 0.3s ease, color 0.3s ease;
 
   svg,
