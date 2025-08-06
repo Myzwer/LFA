@@ -31,7 +31,7 @@
 
 <!--Open Body, Apply any Tailwind classes that are global here, Leave WP stuff alone. -->
 <body class="leading-normal tracking-normal"
-      style="font-family: 'Source Sans Pro', sans-serif;" <?php body_class(); ?>>
+      style="font-family: 'Source Sans 3', sans-serif;" <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
 
