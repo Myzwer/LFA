@@ -17,11 +17,11 @@
 ), url('<?php the_sub_field( "side_photo" ); ?>') center center; background-repeat: no-repeat; background-size: cover;
  height: 60vh;">
     <div class="content-middle-medium text-center px-5 text-pretty">
-        <div class="center add-padding">
-            <h2 class="text-white text-xl lg:text-2xl lb-2 font-bold"><?php the_sub_field( "small_subtitle" ); ?></h2>
-        </div>
-        <h1 class="text-white text-3xl lg:text-5xl uppercase font-bold"><?php the_sub_field( "main_title" ); ?></h1>
+        <h1 class="text-white text-3xl lg:text-5xl uppercase font-bold pb-3"><?php the_sub_field( "main_title" ); ?></h1>
 
+        <div class="center add-padding">
+            <h2 class="text-white text-xl lg:text-2xl lb-2"><?php the_sub_field( "small_subtitle" ); ?></h2>
+        </div>
 
         <?php if ( have_rows( 'primary_cta' ) ): ?>
             <?php while ( have_rows( 'primary_cta' ) ): the_row(); ?>
