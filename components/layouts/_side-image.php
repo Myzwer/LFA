@@ -2,7 +2,7 @@
     <div class="lg:max-w-6xl lg:mx-auto">
         <div class="grid grid-cols-12 gap-4 md:gap-10 ">
             <div class="col-span-12 md:col-span-5 relative">
-                <div class="pb-10 content-middle">
+                <div class="pb-10 content-middle-medium">
                     <?php
                     $bioimage = get_field("bio_image");
                     if (!empty($bioimage)): ?>
@@ -12,7 +12,7 @@
                 </div>
             </div>
 
-            <div class="col-span-12 md:col-span-7 prose icons">
+            <div class="col-span-12 md:col-span-7 prose max-w-none icons">
                 <?php the_field('bio'); ?>
             </div>
         </div>
