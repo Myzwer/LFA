@@ -1,8 +1,8 @@
-<div class="bg-black text-white p-10">
+<div class="bg-sage text-white px-10 py-20">
     <div class="lg:max-w-6xl lg:mx-auto">
         <div class="grid grid-cols-12 gap-4 md:gap-10 ">
-            <div class="col-span-12 md:col-span-5">
-                <div class="prose pb-10">
+            <div class="col-span-12 md:col-span-5 relative">
+                <div class="pb-10 content-middle">
                     <?php
                     $bioimage = get_field("bio_image");
                     if (!empty($bioimage)): ?>
