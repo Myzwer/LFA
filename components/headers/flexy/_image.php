@@ -16,7 +16,7 @@
   rgba(0, 0, 0, 0.45)
 ), url('<?php the_sub_field( "side_photo" ); ?>') center center; background-repeat: no-repeat; background-size: cover;
  height: 60vh;">
-    <div class="content-middle-medium text-center px-5 text-pretty">
+    <div class="content-middle text-center px-5 text-pretty">
         <h1 class="text-white text-3xl lg:text-5xl uppercase font-bold pb-3"><?php the_sub_field( "main_title" ); ?></h1>
 
         <div class="center add-padding">
