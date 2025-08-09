@@ -73,6 +73,10 @@ if ( have_rows( 'body_sections' ) ) :
                 get_template_part( 'components/blocks/flexy/_icons' );
                 break;
 
+            case 'form':
+                get_template_part( 'components/blocks/flexy/_form-standard' );
+                break;
+
             default:
                 error_log( "Unhandled content block: " . get_row_layout() );
                 break;
