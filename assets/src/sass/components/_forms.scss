@@ -11,6 +11,11 @@
 // Not my class names, sooo....
 /* stylelint-disable selector-max-id, selector-max-compound-selectors, selector-class-pattern */
 
+// Varibles
+$white: #FAF8F5;
+$black: #2B2B2B;
+$accent: #55624C;
+
 .gform_title,
 .gform_description {
   display: none;
@@ -32,20 +37,20 @@
   margin-top: 0 !important;
 }
 
-.gform_body input {
-  background-color: #eeeeee;
+.gform_body input, .gform_body textarea {
+  background-color: $white;
   border-radius: 8px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  color: #333333;
+  color: $black;
 }
 
 .gform_body input:focus {
-  border: 1px solid #234058;
+  border: 1px solid $accent;
   outline: none !important;
 }
 
 .gform_wrapper .gfield_required {
-  color: #234058 !important;
+  color: $accent !important;
 }
 
 .gform_body input::placeholder {
@@ -54,19 +59,25 @@
 }
 
 .gform_button {
-  border: 2px solid #333333;
-  border-radius: 20px;
-  color: #333333;
-  cursor: pointer;
+  align-items: center;
+  background-color: #F68B35 !important;
+  border: 2px solid $black;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  color: $black;
+  display: inline-flex;
+  font-family: "Source Sans 3", sans-serif;
   font-weight: 800;
+  justify-content: center;
   padding: 10px 30px;
-  text-transform: uppercase;
-  transition: 0.3s;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .gform_button:hover {
-  background-color: #234058;
-  color: #eeeeee;
+  background-color: #f48227 !important;
+  cursor: pointer;
 }
 
 /* stylelint-enable selector-max-id, selector-max-compound-selectors, selector-class-pattern */
