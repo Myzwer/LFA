@@ -65,6 +65,14 @@ if ( have_rows( 'body_sections' ) ) :
                 get_template_part( 'components/blocks/flexy/_image-text' );
                 break;
 
+            case 'work_highlight':
+                get_template_part( 'components/blocks/flexy/_work-highlight' );
+                break;
+
+            case 'featured_icons':
+                get_template_part( 'components/blocks/flexy/_icons' );
+                break;
+
             default:
                 error_log( "Unhandled content block: " . get_row_layout() );
                 break;
